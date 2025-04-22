@@ -34,8 +34,8 @@ Las funciones MP_ERCE y NL_ERCE requieren los siguientes argumentos:
 
 ** año: Año del estudio, que puede ser 2013 o 2019.
 
-Medida promedio : devtools::source_url("https://raw.githubusercontent.com/Sadith20/Evaluciones-internacionales/refs/heads/main/Funcion_MP_ERCE_VF.R")
-Niveles de logro : devtools::source_url("https://raw.githubusercontent.com/Sadith20/Evaluciones-internacionales/refs/heads/main/Funcion_NL_ERCE_VF.R")
+Medida promedio : devtools::source_url("https://raw.githubusercontent.com/Sadith20/ERCE/refs/heads/main/02.1%20Funcion_MP_ERCE.R")
+Niveles de logro : devtools::source_url("https://raw.githubusercontent.com/Sadith20/ERCE/refs/heads/main/02.2%20Funcion_NL_ERCE.R")
 
 ## 3. Gráficos: Visualización de los resultados mediante gráficos generados de forma automatizada.
 
