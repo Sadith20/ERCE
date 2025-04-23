@@ -42,7 +42,6 @@ MP_ERCE = function(data,estrato,grado,curso,año){
   
   # Para cada grupo de estrato
   for (z in 1:length(unique(data[[estrato]]))) {
-    z=1
     variables =unique(data[[estrato]])
     # Extraer los datos del estrato actual
     bd_n = data %>% filter(data[[estrato]]==variables[z])
