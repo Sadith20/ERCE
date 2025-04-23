@@ -18,18 +18,7 @@ round2 = function(x, n) {
 # mostrar cifras significaticas (entero + decimal)
 options(digits=8)
 
-# ruta de trabajo
-setwd('E:/SYRA/SYRA_ordenado/Resultados de ERCE y funcion')
-
-base = import('ERCE_2019_QA3 Peru.sav')
-
 NL_ERCE = function(data,estrato,grado,curso,año){
-  data = base
-  estrato = 'SEX'
-  grado = '3P'
-  curso = 'Lectura'
-  año = '2019'
-  
 # cantidad de valores plausibles y prefijo de los pesos replicados
 cant_vp = 5
 pesos_replicados = 'BRR'
@@ -138,8 +127,3 @@ for (z in 1:length(unique(data[[estrato]]))) {
   export(resultado_f, paste0('NL_',grado,'_',curso,'_',estrato,'_',año,'.xlsx'), rowNames = TRUE)
 }
 
-NL_ERCE(base,'COUNTRY','3P','Lectura','2019')
-NL_ERCE(base,'SEX','3P','Lectura','2019')
-
-NL_ERCE(base,'COUNTRY','3P','Matematica','2019')
-NL_ERCE(base,'SEX','3P','Matematica','2019')
