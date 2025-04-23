@@ -97,6 +97,5 @@ MP_ERCE = function(data,estrato,grado,curso,año){
 }
 
 
-MP_ERCE(base,'DEP','3P','Lectura','2019')
 
 
